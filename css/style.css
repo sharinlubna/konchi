@@ -1,0 +1,185 @@
+body {
+  background: #fff;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  
+}
+
+#demo{
+  height: 600px;
+}
+.carousel-inner{
+  height: 600px;
+}
+.carousel-caption {
+  bottom: 25.25rem !important
+}
+.carousel-caption h1{
+  font-size: 50px;
+}
+.carousel-caption p{
+  font-size: 20px;
+}
+.items{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(196, 246, 246);
+  padding: 100px;
+  align-items: center;
+}
+.col-md-4 .fa-solid{
+  font-size: 70px !important;
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 114px;
+}
+.col-md-4 h4{
+  margin-top: 10px;
+  font-size: 28px;
+  color: rgb(250, 93, 93);
+  text-align: center;
+}
+.col-md-4 p{
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.dishes{
+  width: 100%;
+  height: 600px;
+  padding: 4% 6%;
+}
+.dishes h1{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 800;
+}
+.slideshow-container {
+  width: 614px !important;
+  height: 441px;
+  position: relative;
+  margin: auto;
+}
+.mySlides{
+  height: 300px;
+}
+
+/* Caption text */
+.text{
+  align-items: center;
+}
+.text h2{
+  color: #0b0b0b;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 298px !important;
+  background-color: #c7b6b64b;
+}
+.text p{
+  color: #0b0b0b;
+  font-size: 32px;
+  position: absolute;
+  margin-top: 110px!important;
+  width: 32%;
+  text-align: center;
+  border: 2px solid rgb(8, 8, 8);
+  border-radius: 100%;
+  height: 165px;
+  padding: 54px 37px;
+  margin-left: 222px !important;
+}
+.text p:hover{
+  background-color: rgb(255, 253, 254);
+  border: 2px solid rgb(255, 253, 254);
+}
+.mySlides img{
+  width: 614px !important;
+  height: 441px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.clearfix{
+  padding-top: 9%;
+}
+.clearfix h1{
+  font-weight: 700;
+  font-size: 50px;
+}
+.testimonial p{
+  font-size: 20px;
+  text-align: left;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.testimonial h4{
+  font-size: 20px;
+  margin-left: 40px;
+}
+.contact{
+  height: 210px;
+  padding: 5%;
+  background-color: antiquewhite;
+}
+.contact .col-md-4 .btn-primary{
+  background-color: black;
+}
+footer{
+  background-color: rgb(36, 36, 36);
+  height: 500px;
+}
+footer .col-md-4{
+  margin-top: 50px;
+}
+footer h3{
+  color: white;
+}
+footer p{
+  color: white;
+}
+.fa-brands{
+    padding: 5px;
+    font-size: 24px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 9px;
+}
+footer .col-md-5{
+  margin-top: 50px;
+}
+footer .col-md-3{
+  margin-top: 50px;
+  text-decoration: none;
+}
+footer .col-md-3 ul li a{
+  text-decoration: none;
+  color: white;
+}
